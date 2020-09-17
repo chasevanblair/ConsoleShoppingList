@@ -40,6 +40,7 @@ public class ListItemHelper{
 		em.remove(result);
 		em.getTransaction().commit();
 		em.close();
+		//test
 	}
 	
 	public void updateItem(ListItem toEdit) {
